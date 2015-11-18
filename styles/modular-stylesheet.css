@@ -1,44 +1,46 @@
 * { box-sizing: border-box; }
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 li {
  list-style-type: none;
 }
 img {
-  ;
+  max-width: 100%;
+  position: relative;
+  left: 4rem;
 }
-header nav li {
-  
+i {
+  clear: both;
+  float: right, left, right, left, right;
+  color: darkgray;
 }
-h1 {
-  
- 
+.title {
+  max-width: 100%;
+  font-size: 1.25em;
+  font: bolder;
+  text-align: left;
 }
-article {
- 
+.saleprice {
+  color: #A60000;
 }
-h2 {
-  
-}
-h3 {
- 
-}
- footer p {
-  
-}
-footer {
- 
-}
-.intro {
-  ;
+.price {
+  color: black;
 }
 .main {
- ;
+  float: right;
+  max-width: 15%;
+  max-height: 100%;
+  margin: 2 2 2 2;
+  }
+aside {
+  max-width: 50%;
+  padding: .5;
+  border: 2px solid black;
+  text-align: center;
+  margin: 0;
 }
-.side {
-  
-}
-i:hover {
-  
+aside:hover {
+  color: darkgray;
+  background-color: #ESE1DS;
 }
