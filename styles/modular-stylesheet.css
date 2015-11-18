@@ -34,6 +34,9 @@ i {
 .saleprice {
   color: #FF0000;
 }
+.yousave {
+  color: black;
+}
 aside {
   max-width: 50%;
   padding: .5;
