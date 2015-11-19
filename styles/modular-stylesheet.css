@@ -5,27 +5,34 @@ body {
 .main {
   max-width: 15%;
   max-height: 100%;
-  margin: 2 2 2 2;
+  margin: 2em 2em 2em 2em;
   }
 .product-number {
   position: relative;
   left: 6rem;
   max-width: 100%;
+  margin-bottom: 3em;
 }
 li {
  list-style-type: none;
 }
 i {
-  float: left, right, left, right, left;
+  float: left;
+  float: right;
+  float: left;
+  float: right;
+  float: left;
   color: #F1F1ED;
   position: relative;
   right: 2.5rem;
 }
 .title {
+  clear: both;
   max-width: 100%;
   font-size: 1.15em;
   text-align: left;
   font-weight: bold;
+  margin-top: 2em;
 }
 .price {
   color: black;
@@ -39,7 +46,7 @@ i {
 }
 aside {
   max-width: 50%;
-  padding: .5;
+  padding: .5rem;
   border: 2px solid black;
   text-align: center;
   margin: 0;
